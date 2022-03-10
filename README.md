@@ -4,6 +4,27 @@ We made our <a href="https://docs.blockchainapi.com" target="_blank">API</a>.
 
 Now we want to help you make yours.
 
+## Background
+
+Anyone can make their own API already. However, if you do and you intend to make money off of it, 
+you'll likely have to complete several steps that do not involve the coding you love. For us, these steps include: 
+managing a cluster of servers, managing a database, accepting payments, setting up a business bank account, first operating 
+at a loss before making money, creating and managing documentation, marketing the API, and growing the community.
+
+That's a lot.
+
+What if you could only focus on **the coding part** and still make money and preserve your IP?
+
+That's what the purpose of this is. You write the code, you compile it to a binary, and you upload it to your platform.
+
+We automatically create the documentation, manage the payments, and scale your code. People already paying for our platform
+ immediately have access to your functions, and then you make money every time a paying user calls your function. 
+And we can't see your code because it's a binary file.
+
+## The Mission
+
+Enable developers to build an API and focus *exclusively* on coding the fun stuff while making money!
+
 ## How this Works
 
 Simply deploy your function using our script and follow the instructions here.
