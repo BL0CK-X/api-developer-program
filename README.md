@@ -4,6 +4,10 @@ We made our <a href="https://docs.blockchainapi.com" target="_blank">API</a>.
 
 Now we want to help you make yours.
 
+## Intro Video
+
+You can watch an intro video here if you prefer that. All of the information in the video is contained within this README.
+
 ## Background
 
 Anyone can make their own API already. However, if you do and you intend to make money off of it, 
@@ -33,19 +37,40 @@ Enable developers to build a profitable API and focus *exclusively* on coding th
 
 ## How this Works
 
-Simply deploy your function using our script and follow the instructions here.
+1) Create the project
+2) Write the functions
+3) Compile the binary
+4) Verify the binary
+5) Upload the binary
+6) Get paid at the end of each month
 
-Documentation, infrastructure, and payment will all be handled automatically.
+We have a thorough Python example showing how to do all of this in the 
+<a href="https://github.com/BL0CK-X/api-developer-program/tree/main/python-api" target="_blank">folder `python-api`</a>.
 
-Then, when someone uses your function, you get paid based on what plan they're on. This is because the plan they're on
-determines the $ USD per credit rate. 
+## How you make money
+
+Like our own functions, each function costs a certain amount of credits.
+
+For each of your functions, you specify how much one call to that costs, from 1 to 100 credits. 
+
+When someone uses your function, you get paid based on what plan that user is on. This is because the plan they're on
+determines the cost per credit rate.
+
+Plan | Free Trial | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
+--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+Cost | 0 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+
+When someone uses your function, you get paid based on what plan that user is on. This is because the plan they're on
+determines the $ USD per credit rate.
 
 For example, the FREE plan runs at $0 / credit, the $29 / mo plan runs at $0.00029 / credit, etc.
 
-You determine the amount of credits your function costs. It can cost from 1 credit to 100 credits. If you want something 
+You determine the amount of credits your function costs. It can cost from 1 credit to 100 credits. If you want something
 outside of that range, let us know.
 
-## How you Make Money
+NOTE: The first pay day might not be until 05/01.
+
+## How to share your API
 
 ## Getting Started
 
