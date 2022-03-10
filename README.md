@@ -195,6 +195,7 @@ If you need support, <a href="https://dashboard.blockchainapi.com/#contact">cont
 Ways to help this project and help the marketplace grow:
 
 - Contribute to this repository so people can easily compile and deploy in more languages
+- Send us all of your feedback, feature requests, and support requests
 - Create a sick API and make a ton of money!
 
 ## Status of the Developer Program
