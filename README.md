@@ -63,7 +63,7 @@ Incremental
 Keep imports close to your code, rather than at the top
 Import time example
 
-## Getting Started
+## Getting started
 
 Hello world program
 How easy is it (watch video)
@@ -73,9 +73,7 @@ How easy is it (watch video)
 
 ## How you make money
 
-Like our own functions, each function costs a certain amount of credits.
-
-For each of your functions, you specify how much one call to that costs, from 1 to 100 credits. (If you want a value
+For each of your functions, you specify how much one call to that costs in credits, from 1 to 100 credits. (If you want a value
 outside of that range, let us know.)
 
 ### How we convert credits to dollars to pay you
@@ -88,6 +86,7 @@ The table below maps the subscription type to the amount you would earn per 1k c
 Plan | Free Trial | $9 (R) | $9 (M) | $29 (R) | $29 (M) | $99 (R) | $99 (M) | $499 (R) | $499 (M) 
 --- | --- | --- | --- |--- |--- |--- |--- |--- |--- 
 $ earned per 1k Credits | 0 | **0.9** | 0.9 | **0.29** | 0.58 | 0.198 | 0.396 | 0.0099 | 0.06
+
 (R = reserved, M = metered.)
 
 Example: A $29 plan first receives 100,000 reserved credits for the month.
@@ -109,18 +108,19 @@ Until 06/01, we plan on taking **no fee**. In other words, you keep 100% of the 
 
 #### Before 06/01
 
-Note that this is subject to change before 06/01. There are a couple of reasons why we would make the change early:
+Note that this is subject to change before 06/01. There are a few reasons why we would make the change early:
+
 1) The system is being abused in some capacity.
 2) The platform gains so much traction that we need to take a fee in order to be able to afford to scale it.
 3) Or we simply need to in order to remain profitable.
 
 #### After 06/01
 
-What type of fee we take and how we structure it is not yet known.
+What type of fee we take and how we structure it is not yet determined.
 
 What we can commit to is this: It will not cost money to start making money.
 
-The future platform fee will be anywhere from 10% to 35% of the credits earned, with the most likely range of 20% to 30%.
+The future platform fee will be anywhere from 10% to 35% of the credits earned, with the most likely range of 20% to 30%. This fee will cover automatic documentation, user authentication, payment processing, serving your code via our API, and making the platform better.
 
 However, it's really unclear what our costs will be and how this platform will play out. Thus, it's much simpler to just give developers 100% of what they earn at first, and use the data accumulated over time to determine pricing.
 
