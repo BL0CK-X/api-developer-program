@@ -7,9 +7,11 @@ Now we want to help you make yours.
 ## Background
 
 Anyone can make their own API already. However, if you do and you intend to make money off of it, 
-you'll likely have to complete several steps that do not involve the coding you love. For us, these steps include: 
-managing a cluster of servers, managing a database, accepting payments, setting up a business bank account, first operating 
-at a loss before making money, creating and managing documentation, marketing the API, and growing the community.
+you'll likely have to complete several steps that do not involve the code coding part you actually enjoy. 
+
+For us, these steps include: managing a cluster of servers, managing a database, accepting payments, 
+setting up a business bank account, initially operating at a loss before making money, 
+creating and managing documentation, marketing the API, and growing the community.
 
 That's a lot.
 
@@ -20,6 +22,8 @@ That's what the purpose of this is. You write the code, you compile it to a bina
 We automatically create the documentation, manage the payments, and scale your code. People already paying for our platform
  immediately have access to your functions, and then you make money every time a paying user calls your function. 
 And we can't see your code because it's a binary file.
+
+And guess what? It's free to be a part of this program. You can only make money --- not lose.
 
 ## The Mission
 
