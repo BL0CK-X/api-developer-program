@@ -49,11 +49,48 @@ We have a thorough Python example showing how to do all of this in the
 
 ### How to share your API
 
-Via our API, you can create a project. T
+Via our API, you can create a project, which is a mini-API. 
+
+You then specify endpoints, which are functions in your script. 
+
+And finally, you specify what the input the user should provide to that function, and what the function should output.
+
+We use all of this information to both call your API and auto-generate documentation.
+
+All of our methods are available for free via our API and are documented <a href="https://docs.blockchainapi.com/#tag/Project">here</a>.
 
 ### Languages you can use
-Python…. Or anything else
-- Please help contribute more
+
+All of them.
+
+#### Python
+
+We provide and will continue to support a complete Python example in the directory `python-api`. 
+
+This directory includes the following:
+- Using the Python wrapper to call our API to create projects and endpoints
+- Complete cross-platform instructions for compiling the binary
+- Complete cross-platform instructions for verifying the binary
+- Using the Pythonw wrapper to deploy the binary and test it
+
+#### Any Language
+
+However, you can really use any language. To create projects, create endpoints, and deploy your project, you simply 
+need to call our public API, which you can do from any language. Then, to create the binary, you can use any language, as 
+long as it is properly compiled to an executable.
+
+We have created the `go-api` and `javascript-api` directories because we'd like you to contribute to them if you decide to build your API in these languages. (It's in your interest as well that more developers join our platform because they'll bring more paying users who could have interest in your API.)
+
+In order to know what's necessary for these directories, please see the workflow of the `python-api` directory.
+
+#### Go
+
+In particular, the language `go` is of specific interest. This is because, per my understanding, <a href="https://stackoverflow.com/questions/12168873/cross-compile-go-on-osx">you can compile Go to a 
+Linux binary</a>.
+
+This is great for two reasons:
+1) Currently, run the binaries on a Linux server. Thus, native Linux binaries will be faster than Windows/Mac binaries run on a Linux machine.
+2) This means we use packages that help us run non-native binaries (Windows, Linux), and these packages sometimes have bugs. Thus, compiling for Linux will result in a less buggy and more predictable deployment experience.
 
 ### Tips and tricks
 
