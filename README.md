@@ -29,7 +29,7 @@ It's free to be a part of this program and add your functions. **You can't lose 
 
 ## The Mission
 
-Enable developers to build an API and focus *exclusively* on coding the fun stuff while making money!
+Enable developers to build a profitable API and focus *exclusively* on coding the fun stuff!
 
 ## How this Works
 
