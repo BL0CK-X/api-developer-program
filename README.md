@@ -9,8 +9,8 @@ Now we want to help you make yours.
 Anyone can make their own API already. However, if you do and you intend to make money off of it, 
 you'll likely have to complete several steps that do not involve the code coding part you actually enjoy. 
 
-For us, these steps include: managing a cluster of servers, managing a database, accepting payments, 
-setting up a business bank account, initially operating at a loss before making money, 
+For us, these steps include: managing a cluster of servers, managing a database, accepting payments, analyzing usage, 
+managing user authentication, setting up a business bank account, initially operating at a loss before making money, 
 creating and managing documentation, marketing the API, and growing the community.
 
 That's a lot.
@@ -19,7 +19,8 @@ What if you could only focus on **the coding part** and still make money and pre
 
 That's what the purpose of this is. You write the code, you compile it to a binary, and you upload it to your platform.
 
-We automatically create the documentation, manage the payments, and scale your code. People already paying for our platform
+We automatically create the documentation, manage user authentication, manage the payments, scale your code, and give you 
+statistics of API usage so you can adjust accordingly. People already paying for our platform
  immediately have access to your functions, and then you make money every time a paying user calls your function. 
 And we can't see your code because it's a binary file.
 
