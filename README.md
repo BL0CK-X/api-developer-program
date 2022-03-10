@@ -71,13 +71,15 @@ This directory includes the following:
 - Using the Python wrapper to call our API to create projects and endpoints
 - Complete cross-platform instructions for compiling the binary
 - Complete cross-platform instructions for verifying the binary
-- Using the Pythonw wrapper to deploy the binary and test it
+- Using the Python wrapper to deploy the binary and test it
 
 #### Any Language
 
 However, you can really use any language. To create projects, create endpoints, and deploy your project, you simply 
-need to call our public API, which you can do from any language. Then, to create the binary, you can use any language, as 
-long as it is properly compiled to an executable.
+need to call our public API, which you can do from any language. 
+
+Then, to create the binary, you can use any language, as long as it is properly compiled to an executable. 
+And as long as it is properly formatted to be executed in the format we expect. We specify this format in the README.md in the `python-api` directory.
 
 We have created the `go-api` and `javascript-api` directories because we'd like you to contribute to them if you decide to build your API in these languages. (It's in your interest as well that more developers join our platform because they'll bring more paying users who could have interest in your API.)
 
@@ -94,19 +96,24 @@ This is great for two reasons:
 
 ### Tips and tricks
 
-Deploy twice — debug and production
-Deploy frequently
-Incremental
-Keep imports close to your code, rather than at the top
-Import time example
+NOTE: Do **not** rely on file read/write operations, unless that file is included within the executable. We currently permit such operations, but this is insescure and we will soon disable this.
+
+1) You should deploy twice, once to a debug project, and once to a production project. Please clearly mark your `Debug` project in the project name.
+2) You should deploy frequently and ensure that your binary runs as expected. If you experience any issues, contact us!
+3) Make incremental changes and deploy to ensure it works as expected.
+4) Import packages close to where they are used (Python). Typical Python practice says to import packages all at the top, which is in general the best practice. 
+However, because we run the binary compiled on Windows/Mac on Linux, there are sometimes unexpected errors. For example, I found that `import time` causes the binary to hang when run on Linux.
+5) If your binary is just not running as expected, try compiling it for Linux. I'm more than happy to try and help you debug, however.
 
 ## Getting started
 
-Hello world program
-How easy is it (watch video)
-- Create project
-- Compile binary
-- Deploy project
+Our 'Hello world program' is included in the `main.py` program. It has an endpoint called `ping` which verifies that 
+the binary is working, and an endpoint called `generate_public_key` which uses the `solana` package to generate a public
+key starting with a specific string.
+
+Instructions for getting started with this mini-API and deploying it are included in the `README.md` of the `python-api` folder.
+
+We also have a video walk-through for this here.
 
 ## How you make money
 
@@ -181,11 +188,16 @@ So the way I see it, is that we need to focus on #1, and then #2 will follow.
 
 ## Support
 
+If you need support, <a href="https://dashboard.blockchainapi.com/#contact">contact us</a>!
+
 ## How To Contribute
 
-Ways to help this project
-- Languages
+Ways to help this project and help the marketplace grow!
+- Contribute to this repository so people can easily compile and deploy in more languages!
+- Create a sick API and make a ton of money!
 
 ## Status of the Developer Program
 
-Private beta — there are specific aspects still in development. Wanted to get feedback try to get it work now
+We are currently in a semi-private beta. This means that it is publicly accessible, but I am not widely announcing its availability to our users just yet.
+
+I am currently contacting specific users who have expressed interest in this program.
