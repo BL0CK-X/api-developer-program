@@ -56,7 +56,7 @@ For each of your functions, you specify how much one call to that costs, from 1 
 When someone uses your function, you get paid based on what plan that user is on. This is because the plan they're on
 determines the cost per credit rate.
 
-Plan | Free Trial | $9 / mo (R) | $9 / mo (M) | $29 / mo (R) | $29 / mo (M) | $99 / mo (R) | $99 / mo (M) | $499 / mo (R) | $499 / mo (M) 
+Plan | Free Trial | $9 (R) | $9 (M) | $29 (R) | $29 (M) | $99 (R) | $99 (M) | $499 (R) | $499 (M) 
 --- | --- | --- | --- |--- |--- |--- |--- |--- |--- 
 $ / 1k Credits | 0 | 0.9 | 0.9 | 0.29 | 0.58 | 0.198 | 0.396 | 0.0099 | 0.06
 
