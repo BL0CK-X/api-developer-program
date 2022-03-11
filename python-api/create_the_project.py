@@ -1,9 +1,9 @@
 from theblockchainapi.developer_program_resource import DeveloperProgramResource, Group, Type, Specification
 import json
 
+
 API_KEY_ID = None
 API_SECRET_KEY = None
-
 
 try:
     assert API_KEY_ID is not None
@@ -55,7 +55,7 @@ def main():
             Group(
                 section_name='Solana Wallets',  # This is a section, which is a grouping of groups in the documentation.
                 group_name='Wallet Generation',  # This is the group name. It is shown in the sidebar of the docs.
-                group_description='These functions generate '  # This is a description
+                group_description='These functions generate wallets in various ways.'  # This is a description
             )
         ]
     )

@@ -2,6 +2,8 @@ import subprocess
 import platform
 import sys
 
+# ------ This is not yet completed. ------
+# The main tests for verification are already included in `how-to-compile-the-binary.md`.
 
 if __name__ == '__main__':
 
