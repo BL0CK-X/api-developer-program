@@ -14,6 +14,11 @@ def generate_public_key(
 
     """
     This is an example function.
+
+    Note that it returns an instance of `Response`.
+
+    Note that we match the `operation_id` to `generate_public_key` below in the dictionary `operation_id_to_function`.
+    This is used to determine which function to call when the operation ID is passed.
     """
 
     # You don't need to use `version` now for this function, but you might use it later for backwards-compatibility
@@ -75,6 +80,7 @@ def generate_public_key(
 
 
 # ----------------------------------- DO NOT EDIT ANYTHING BELOW THIS LINE ------------------------------------
+# ----------------------------------- Except    `operation_id_to_function` ------------------------------------
 
 # NOTE: --- Do not touch or edit `ping`. We use this to verify the binary.
 def ping() -> Response:
