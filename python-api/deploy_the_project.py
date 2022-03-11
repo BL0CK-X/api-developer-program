@@ -49,7 +49,7 @@ def deploy(project_id: str, binary_file_path: str):
 
 def main():
     # Insert the `project_id` generated after creating the project.
-    project_id = 'b6GuS1Nc9DShR88HxPCV'
+    project_id = None
     # This is the default version when creating a project. If you're using a different version, enter it here.
     version = '0.0.1'
     # Modify the path to the generated binary, if necessary.
