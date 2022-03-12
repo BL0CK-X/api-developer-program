@@ -4,7 +4,7 @@ We made our <a href="https://docs.blockchainapi.com" target="_blank">API</a>.
 
 Now we want to help you make yours.
 
-## Intro Video
+## Intro Video and Tutorial
 
 Here's the short video (5 minutes) introduction: https://youtu.be/X-g5OXVbv7g
 
