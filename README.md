@@ -12,6 +12,12 @@ We have more thorough video tutorial (55 minutes) that creates an API from begin
 
 All the information in the video is contained within this README.
 
+## Documentation
+
+There is no UI right now for the API Developer Program besides our own API endpoints.
+
+Documentation for all the necessary endpoints are documented here: https://docs.blockchainapi.com/#tag/Project
+
 ## Background
 
 Anyone can make their own API already. However, if you do and you intend to make money off of it, 
