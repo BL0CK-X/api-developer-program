@@ -2,6 +2,7 @@ from theblockchainapi.developer_program_resource import DeveloperProgramResource
 import requests
 import json
 
+
 API_KEY_ID = None
 API_SECRET_KEY = None
 
@@ -23,8 +24,7 @@ def test_deployment(project_id: str, version: str, endpoint_path: str, input_dic
     print("-" * 20)
     print("Testing Deployment...")
     response = requests.post(
-        url=f'http://localhost:8080/third-party-apis/{project_id}/v{version}/{endpoint_path}',
-        # url=f'https://api.blockchainapi.com/third-party-apis/{project_id}/v{version}/{endpoint_path}',
+        url=f'https://api.blockchainapi.com/third-party-apis/{project_id}/v{version}/{endpoint_path}',
         data=json.dumps(input_dict),
         headers={
             'APIKeyId': API_KEY_ID,
@@ -49,7 +49,7 @@ def deploy(project_id: str, binary_file_path: str):
 
 def main():
     # Insert the `project_id` generated after creating the project.
-    project_id = None
+    project_id = 'xi3UZwxp4pbfRdK4hcoL'
     # This is the default version when creating a project. If you're using a different version, enter it here.
     version = '0.0.1'
     # Modify the path to the generated binary, if necessary.
@@ -58,6 +58,9 @@ def main():
     binary_file_path = '../test-executables/main-mac'
 
     deploy(project_id, binary_file_path)
+
+    stats = RESOURCE.get_project_stats(project_id)
+    print("STATS\n", json.dumps(stats, indent=4))
 
     test_deployment(
         project_id=project_id,
@@ -75,6 +78,9 @@ def main():
             'starting_with': 'C'
         }
     )
+
+    stats = RESOURCE.get_project_stats(project_id)
+    print("STATS\n", json.dumps(stats, indent=4))
 
 
 if __name__ == '__main__':

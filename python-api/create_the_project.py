@@ -5,6 +5,7 @@ import json
 API_KEY_ID = None
 API_SECRET_KEY = None
 
+
 try:
     assert API_KEY_ID is not None
     assert API_SECRET_KEY is not None
