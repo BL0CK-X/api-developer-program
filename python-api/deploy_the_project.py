@@ -49,13 +49,13 @@ def deploy(project_id: str, binary_file_path: str):
 
 def main():
     # Insert the `project_id` generated after creating the project.
-    project_id = 'xi3UZwxp4pbfRdK4hcoL'
+    project_id = None
     # This is the default version when creating a project. If you're using a different version, enter it here.
     version = '0.0.1'
     # Modify the path to the generated binary, if necessary.
     # binary_file_path = 'my-api/main'
     # You can also just use the path to our pre-generated binaries, if you'd like to proceed for testing purposes.
-    binary_file_path = '../test-executables/main-mac'
+    binary_file_path = 'my-api/main'
 
     deploy(project_id, binary_file_path)
 

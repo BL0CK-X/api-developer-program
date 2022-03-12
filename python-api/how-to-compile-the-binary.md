@@ -47,10 +47,8 @@ sudo apt-get install libpython3.7-dev
 
 ### Windows
 
-1) Install py2exe.
-
 ```
-py -m pip install py2exe
+py -m pip install nuitka
 ```
 
 ## (3) Compile it to an executable with Nuitka
@@ -114,7 +112,7 @@ OUTPUT: {"data": {}, "response_code": 200}
 
 Input Test #3
 ```
-./test-executables/main-mac generate_public_key '{"starting_with": "a"}'
+./test-executables/main-mac generate_public_key '{}' '{"starting_with": "a", "version": "0.0.1"}'
 ```
 Expected Output
 ```

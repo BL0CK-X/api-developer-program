@@ -151,4 +151,3 @@ if __name__ == '__main__':
     # We will run this here when running your executable and pass in the necessary arguments.
     result = main()
     print(f"OUTPUT: {json.dumps(result.get_dict())}")
-    # print(generate_public_key('API', case_sensitive=True, max_retries=int(1e5)).get_dict())

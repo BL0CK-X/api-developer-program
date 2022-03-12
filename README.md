@@ -6,7 +6,11 @@ Now we want to help you make yours.
 
 ## Intro Video
 
-You can watch an intro video here if you prefer that. All of the information in the video is contained within this README.
+Here's the short video (5 minutes) introduction: https://youtu.be/X-g5OXVbv7g
+
+We have more thorough video tutorial (55 minutes) that creates an API from beginning to end, and goes over important details: https://youtu.be/l5QgAL8OgbE
+
+All the information in the video is contained within this README.
 
 ## Background
 

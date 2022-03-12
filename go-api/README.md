@@ -1,3 +1,5 @@
+Only `python-api` is completed at this time. Pull requests are welcome!
+
 Developing the tutorial for the language `go` is of specific interest. This is because, per my understanding, <a href="https://stackoverflow.com/questions/12168873/cross-compile-go-on-osx">you can compile Go to a
 Linux binary</a> on a non-Linux device.
 
