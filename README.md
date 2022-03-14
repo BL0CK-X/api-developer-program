@@ -139,7 +139,7 @@ The table below maps the subscription type to the amount you would earn per 1k c
 
 Plan | Free Trial | $9 (R) | $9 (M) | $29 (R) | $29 (M) | $99 (R) | $99 (M) | $499 (R) | $499 (M) 
 --- | --- | --- | --- |--- |--- |--- |--- |--- |--- 
-$ earned per 1k Credits | 0 | **0.9** | 0.9 | **0.29** | 0.58 | 0.198 | 0.396 | 0.0099 | 0.06
+$ earned per 1k Credits | 0 | **0.9** | 0.9 | **0.29** | 0.58 | 0.198 | 0.396 | 0.0499 | 0.06
 
 (R = reserved, M = metered.)
 
