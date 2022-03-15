@@ -38,6 +38,7 @@ python3.7 -m pip install -U nuitka
 ### Linux
 
 ```
+sudo apt install build-essential
 sudo pip3 install zstandard
 sudo python3.7 -m pip install -U nuitka
 sudo apt install python3-dev
