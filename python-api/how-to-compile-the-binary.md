@@ -37,13 +37,34 @@ python3.7 -m pip install -U nuitka
 
 ### Linux
 
+#### Ubuntu
+
 ```
+sudo apt update
+sudo apt install git
 sudo apt install build-essential
 sudo pip3 install zstandard
 sudo python3.7 -m pip install -U nuitka
 sudo apt install python3-dev
 sudo apt install patchelf
 sudo apt-get install libpython3.7-dev
+```
+
+#### Debian
+
+```
+sudo apt update
+sudo apt install git
+sudo apt install build-essential
+sudo apt install python3-pip
+sudo pip3 install zstandard
+sudo apt install python3-dev
+sudo apt install patchelf
+sudo apt-get install libpython3.7-dev
+sudo python3.7 -m pip install -U nuitka
+sudo apt-get install zlib1g-dev
+sudo apt-get install fuse
+sudo apt install libffi-dev
 ```
 
 ### Windows
