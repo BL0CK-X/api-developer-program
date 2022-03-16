@@ -101,8 +101,10 @@ def main() -> Response:
         'generate_public_key': generate_public_key
     }
     
+    operation_id_to_function_temp = dict()
     for key, value in operation_id_to_function.items():
-        operation_id_to_function[key.lower()] = value
+        operation_id_to_function_temp[key.lower()] = value
+    operation_id_to_function = operation_id_to_function_temp
 
     # The first argument (i.e., `sys.argv[0]`) is just the name of the program.
     # We must provide the other three: the `operation_id`, the `version`, and the input data..
