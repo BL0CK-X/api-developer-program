@@ -131,7 +131,7 @@ def main():
                 description='The public key of the account generated.',
                 name='public_key',
                 required=True,
-                type_=Type.STRING
+                type_=Type.OBJECT
             ),
             Specification(
                 description='An array of integers representing the private key of the account generated.',
@@ -182,5 +182,6 @@ def main():
 
 
 if __name__ == '__main__':
+    clean_up()
     main()
     # clean_up()

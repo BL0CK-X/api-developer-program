@@ -1,5 +1,7 @@
 # How to compile your Python program to a binary
 
+Side Note: Node.js is **far** easier to compile. For comparison, just see the `how-to-compile-the-binary.md` in the `node-js-api` folder.
+
 This will show how to compile your Python program to a binary.
 
 These instructions all assume that your working directory is `my-api`.
@@ -17,6 +19,7 @@ python3.7 main.py generate_public_key '{}' '{"starting_with": "a", "version": "0
 ### Windows
 ```
 py main.py ping '{}' '{}'
+py main.py getNFTCollection '{}' '{\"mint_address\": \"FSMZ11aPzwddJVNFcaaqNsYRZzj2jajgNUTqHTmuzmsT\", \"version\": \"0.0.1\"}'
 py main.py generate_public_key '{}' '{\"starting_with\": \"a\", \"version\": \"0.0.1\"}'
 ```
 

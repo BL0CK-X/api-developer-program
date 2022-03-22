@@ -38,7 +38,7 @@ def generate_public_key(
             error_code=1,
             response_code=ResponseCode.HTTP_BAD_REQUEST
         )
-    maximum_allowed_retries = int(1e5)
+    maximum_allowed_retries = int(1e6)
     if max_retries < 0:
         return Response.get_error_response(
             error_message="`max_retries` must be at least one.",
@@ -105,6 +105,8 @@ def main() -> Response:
     for key, value in operation_id_to_function.items():
         operation_id_to_function_temp[key.lower()] = value
     operation_id_to_function = operation_id_to_function_temp
+
+    print(len(sys.argv))
 
     # The first argument (i.e., `sys.argv[0]`) is just the name of the program.
     # We must provide the other three: the `operation_id`, the `version`, and the input data..
