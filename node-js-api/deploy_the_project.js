@@ -160,7 +160,7 @@ const main = async () => {
     // Modify the path to the generated binary, if necessary.
     // binary_file_path = 'my-api/main'
     // You can also just use the path to our pre-generated binaries, if you'd like to proceed for testing purposes.
-    const binaryFilePath = 'my-api/main';
+    const binaryFilePath = 'binaries/main-linux';
 
     await deploy(projectId, binaryFilePath);
 
