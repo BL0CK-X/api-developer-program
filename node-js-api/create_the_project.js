@@ -99,7 +99,7 @@ const main = async () => {
     // is viewable at https://docs.blockchainapi.com/#operation/solanaCreateNFT.
     // In the future, we will auto-generate wrappers for your API. When we do, the `operation_id` will be the name
     // of the function.
-    endpointRequest.operation_id = 'generate_public_key';
+    endpointRequest.operation_id = 'generatePublicKey';
     // This is shown in the sidebar of the documentation.
     endpointRequest.summary = 'Generate a public key';
     // The version of the endpoint.
@@ -109,19 +109,19 @@ const main = async () => {
     endpointRequest.input_specification = [
         {
             description: 'Generates a public key starting with the `starting_with` string you specify. Min length is 1; max length is 20.',
-            name: 'starting_with',
+            name: 'startingWith',
             required: true,
             type: 'string'
         },
         {
             description: 'How many times to attempt to generate a matching account before terminating the program. Min is 1. Max is 300. Default is ',
-            name: 'max_retries',
+            name: 'maxRetries',
             required: false,
             type: 'number'
         },
         {
             description: 'Whether or not the function treats the `starting_with` as case sensitive when determining a match.',
-            name: 'case_sensitive',
+            name: 'caseSensitive',
             required: false,
             type: 'boolean'
         }
@@ -129,7 +129,7 @@ const main = async () => {
     // Currently, `input_examples` and `output_examples` are limited to one example each.
     endpointRequest.input_examples = [
         {
-            'starting_with': 'A'
+            'startingWith': 'A'
         }
     ]
     // The `output_specification` is a list of specifications,
@@ -137,13 +137,13 @@ const main = async () => {
     endpointRequest.output_specification = [
         {
             description: 'The public key of the account generated.',
-            name: 'public_key',
+            name: 'publicKey',
             required: true,
             type: 'object'
         },
         {
             description: 'An array of integers representing the private key of the account generated.',
-            name: 'private_key',
+            name: 'privateKey',
             required: true,
             type: 'array'
         }
@@ -151,8 +151,8 @@ const main = async () => {
      // Currently, `input_examples` and `output_examples` are limited to one example each.
     endpointRequest.output_examples = [
         {
-            'public_key': 'Ab7AjygsuzVGjJ2T2NWJ4XeGmf9wsagSnMJxBmEim7md',
-            'private_key': [
+            'publicKey': 'Ab7AjygsuzVGjJ2T2NWJ4XeGmf9wsagSnMJxBmEim7md',
+            'privateKey': [
                 4, 200, 84, 37, 243, 96, 217, 188, 116, 242, 113, 184, 162, 77, 239, 236, 184, 70, 209, 142, 172,
                 215, 25, 67, 11, 113, 153, 59, 175, 21, 159, 2
             ]
