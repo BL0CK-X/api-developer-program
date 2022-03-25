@@ -1,0 +1,17 @@
+{
+   "name": "nodejs-api",
+   "version": "1.0.0",
+   "scripts": {
+      "compileBinary": "pkg my-api/main.js --out-path binaries",
+      "verifyBinary": "node verifyTheBinary.js",
+      "deploy": "node deployTheProject.js",
+      "create": "node createTheProject.js"
+   },
+   "dependencies": {
+      "axios": "^0.26.1",
+      "form-data": "^4.0.0",
+      "fs": "^0.0.1-security",
+      "pkg": "^5.5.2",
+      "theblockchainapi": "^1.0.9391"
+   }
+}

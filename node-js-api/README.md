@@ -12,7 +12,7 @@ There are five steps to achieving this:
 
 # (1) Create the project and endpoints via our API.
 
-Check out the code in `create_the_project.js`.
+Check out the code in `createTheProject.js`.
 
 The code is heavily commented to outline exactly how it works.
 
@@ -24,16 +24,16 @@ For the purposes of the example, you do not need to modify `main.js`. It should 
 
 # (3) Compile it to a binary.
 
-Review the instructions in `how-to-compile-to-binary.md` to compile your Python program to a binary.
+Run `pkg my-api/main.js --out-path binaries` to compile the binary. This will output binaries for `Linux`, `Darwin` (Mac), and `Windows` (all 64-bit). We will deploy the `Linux` binary, but test the binary that matches your machine.
 
 # (4) Verify the binary.
 
-Check out the code in `verify_the_binary.js`.
+Check out the code in `verifyTheBinary.js`.
 
-The code is heavily commented to outline exactly how it works.
+The code is heavily commented to outline exactly how it works. It verifies the binary that matches your machine.
 
 # (5) Deploy the binary and check the deployment.
 
-Check out the code in `deploy_the_project.js`.
+Check out the code in `deployTheProject.js`.
 
-The code is heavily commented to outline exactly how it works.
+The code is heavily commented to outline exactly how it works. It deploys the `Linux` binary.

@@ -1,9 +1,0 @@
-{
-   "name":"nodejs-api",
-   "version":"1.0.0",
-   "scripts":{
-      "compile":"npm install -g pkg | pkg my-api/main.js --out-path binaries",
-      "deploy":"node deploy_the_project.js",
-      "create":"node create_the_project.js"
-   }
-}
