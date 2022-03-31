@@ -6,7 +6,7 @@ Now we want to help you make yours.
 
 ## This is Easy
 
-This is designed to be easy. Once you get it started, you just write the code and submit it as a binary! We'll help you in any way we can.
+This is designed to be easy. Once you get it started, you just write the code and submit it as a binary! We'll help you in any way we can. Just <a href="https://dashboard.blockchainapi.com/#contact" target="_blank">contact us</a>.
 
 ## Intro Video and Tutorial
 
