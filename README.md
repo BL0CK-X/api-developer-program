@@ -4,6 +4,10 @@ We made our <a href="https://docs.blockchainapi.com" target="_blank">API</a>.
 
 Now we want to help you make yours.
 
+## This is Easy
+
+This is designed to be easy. Once you get it started, you just write the code and submit it as a binary! We'll help you in any way we can.
+
 ## Intro Video and Tutorial
 
 Here's the short video (5 minutes) introduction: https://youtu.be/X-g5OXVbv7g
