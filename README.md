@@ -214,6 +214,4 @@ Ways to help this project and help the marketplace grow:
 
 ## Status of the Developer Program
 
-We are currently in a semi-private beta. This means that it is publicly accessible, but I am not widely announcing its availability to our users just yet.
-
-I am currently contacting specific users who have expressed interest in this program.
+We are currently in beta.
