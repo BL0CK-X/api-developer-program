@@ -72,12 +72,19 @@ const main = () => {
     OUTPUT: {"data": {}, "response_code": 200}
     ```
     */
-    result = spawnSync('./' + path_to_binary, ['ping', "'{}'", "'{}'"]).stdout;
+    result = spawnSync('./' + path_to_binary, ['ping', JSON.stringify({}), JSON.stringify({})]).stdout;
     result = String.fromCharCode(...result);
     output = checkCommandOutput(result)
     if (output['response_code'] != 200) {
-        throw Error("`response_code` must be 400.")
+        throw Error("`response_code` must be 200.")
     }
+
+    result = spawnSync('./' + path_to_binary, ['generatePublicKey', JSON.stringify({}), JSON.stringify({"startingWith": "A"})]).stdout;
+        result = String.fromCharCode(...result);
+        output = checkCommandOutput(result)
+        if (output['response_code'] != 200) {
+            throw Error("`response_code` must be 200.")
+        }
 
     console.log("*** All Tests Passed *** \nAdd more tests here to verify your binary. We highly recommend testing your API as you develop it. If you don't, it becomes almost impossible to make changes in the future because you don't have a quick and easy way to ensure that those changes did not break anything.")
 }
