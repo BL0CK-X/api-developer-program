@@ -24,7 +24,15 @@ For the purposes of the example, you do not need to modify `main.js`. It should 
 
 # (3) Compile it to a binary.
 
-Run `pkg my-api/main.js --out-path binaries` to compile the binary. This will output binaries for `Linux`, `Darwin` (Mac), and `Windows` (all 64-bit). We will deploy the `Linux` binary, but test the binary that matches your machine.
+You can check your current node version with `node --version`.
+
+Then, you can use that node version to modify the command below. You can use any node version you please.
+
+Run `pkg my-api/main.js --out-path binaries -t node17-linux-x64,node17-win-x64,node17-macos-x64` to compile the binary. This will output binaries for `Linux`, `Darwin` (Mac), and `Windows` (all 64-bit). We will deploy the `Linux` binary, but test the binary that matches your machine.
+
+You can learn more about pkg and how to use it <a href="https://github.com/vercel/pkg">here</a>.
+
+The key bit to know here is that we just need it to be in a binary for Linux and for a 64-bit architecture. Any version of Node works.
 
 # (4) Verify the binary.
 
