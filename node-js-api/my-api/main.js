@@ -2,7 +2,7 @@ const solanaWeb3 = require('@solana/web3.js');
 const { Response, ResponseCode } = require('./util.js')
 
     
-const generatePublicKey = ({version, startingWith, maxRetries = 300, caseSensitive = false}) => {
+const generatePublicKey = async ({version, startingWith, maxRetries = 300, caseSensitive = false}) => {
 
     /*
     This is an example function.
@@ -93,7 +93,7 @@ const generatePublicKey = ({version, startingWith, maxRetries = 300, caseSensiti
 // ----------------------------------- Except    `operation_id_to_function` ------------------------------------
 
     // NOTE: --- Do not touch or edit `ping`. We use this to verify the binary.
-const ping = () => {
+const ping = async () => {
     return new Response(
         {},
         ResponseCode.HTTP_OK
@@ -101,7 +101,7 @@ const ping = () => {
 }
 
 
-const main = () => {
+const main = async () => {
     // NOTE: --- To make your mini-API work, you only need to edit the dictionary `operation_id_to_function` inside the
     // `main` function. Everything else should work as is.
 
@@ -128,7 +128,7 @@ const main = () => {
     const operationId = process.argv[2];
 
     if (operationId === "ping") {
-        return ping();
+        return await ping();
     }
 
     console.log(process.argv[2]);
@@ -152,11 +152,14 @@ const main = () => {
         );
     }
 
-    return func(functionArgumentsDict)
+    return await func(functionArgumentsDict)
 }
 
 
 // ----- DO NOT EDIT ------
 // We will run this here when running your executable and pass in the necessary arguments.
-const result = main();
-console.log("OUTPUT: " + JSON.stringify(result.getDict()));
+
+(async() => {
+  const result = await main();
+  console.log("OUTPUT: " + JSON.stringify(result.getDict()));
+})();
