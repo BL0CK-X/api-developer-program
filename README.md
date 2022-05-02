@@ -4,6 +4,10 @@ We made our <a href="https://docs.blockchainapi.com" target="_blank">API</a>.
 
 Now we want to help you make yours.
 
+## This is Easy
+
+This is designed to be easy. Once you get it started, you just write the code and submit it as a binary! We'll help you in any way we can. Just <a href="https://dashboard.blockchainapi.com/#contact" target="_blank">contact us</a>.
+
 ## Intro Video and Tutorial
 
 Here's the short video (5 minutes) introduction: https://youtu.be/X-g5OXVbv7g
@@ -210,6 +214,4 @@ Ways to help this project and help the marketplace grow:
 
 ## Status of the Developer Program
 
-We are currently in a semi-private beta. This means that it is publicly accessible, but I am not widely announcing its availability to our users just yet.
-
-I am currently contacting specific users who have expressed interest in this program.
+We are currently in beta.
