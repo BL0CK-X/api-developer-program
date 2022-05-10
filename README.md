@@ -156,7 +156,7 @@ As of 03/10, 53% of our users are on the $29 / mo plan and 37% of our users are 
 Most of these users also do not exceed their reserved credits for the month. Therefore, the most common dollar rate per 1k credits that you would receive
 is $0.90 and $0.29.
 
-NOTE: The first pay day might not be until 05/01. We do not yet have a system in place for making payouts. We'd also like your feedback on both how you get paid and how often you'd like to be paid. 
+<b>You can start accepting earnings <a href="https://dashboard.blockchainapi.com/developer-program/stats">here</a>.
 
 ### What we take as a platform fee
 
