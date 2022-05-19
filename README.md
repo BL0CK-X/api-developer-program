@@ -168,17 +168,17 @@ is $0.90 and $0.29.
 
 Most platforms, like Apple's App Store, take a percentage fee in order to cover their costs.
 
-Until 06/01, we plan on taking **no fee**. In other words, you keep 100% of the credits used when people use your functions.
+Until 12/31/2022, we plan on taking **no fee**. In other words, you keep 100% of the credits used when people use your functions.
 
-#### Before 06/01
+#### Before 12/31/2022
 
-Note that this is subject to change before 06/01. There are a few reasons why we would make the change early:
+Note that this is subject to change before 12/31/2022. There are a few reasons why we would make the change early:
 
 1) The system is being abused in some capacity.
 2) The platform gains so much traction that we need to take a fee in order to be able to afford to scale it.
 3) Or we simply need to in order to remain profitable.
 
-#### After 06/01
+#### After 12/31/2022
 
 What type of fee we take and how we structure it is not yet determined.
 
