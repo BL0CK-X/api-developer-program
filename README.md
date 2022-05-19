@@ -119,6 +119,12 @@ NOTE: Do **not** rely on file read/write operations, unless that file is include
 However, because we run the binary compiled on Windows/Mac on Linux, there are sometimes unexpected errors. For example, I found that `import time` causes the binary to hang when run on Linux.
 5) If your binary is just not running as expected, try compiling it for Linux. I'm more than happy to try and help you debug, however.
 
+## Analyzing Performance
+
+It's easy to analyze the performance of your API with our <a href="https://dashboard.blockchainapi.com/developer-program/stats">stats dashboard</a>. You can also see how other APIs on our platform perform.
+
+Check out a walkthrough <a href="https://youtu.be/4BPBtnk7MkQ">here</a>.
+
 ## Getting started
 
 Our 'Hello world program' is included in the `main.py` program. It has an endpoint called `ping` which verifies that 
