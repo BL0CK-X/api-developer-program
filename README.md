@@ -1,3 +1,5 @@
+<b>The API developer program has been temporarily discontinued. We look forward to bringing it back in the next several months. Thank you to everyone who participated while we tested the program.</b>
+
 # The Blockchain API Developer Program
 
 We made our <a href="https://docs.blockchainapi.com" target="_blank">API</a>.
